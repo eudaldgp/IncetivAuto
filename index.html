@@ -41,6 +41,12 @@
         .watermark-layer { pointer-events: none; user-select: none; }
     </style>
 </head>
+    <link rel="manifest" href="manifest.json">
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+    }
+</script>
 <body class="bg-gray-200 h-screen w-screen flex justify-center items-center antialiased overflow-hidden p-0 sm:p-4">
 
     <div id="root" class="w-full max-w-[450px] h-full sm:max-h-[900px] bg-white shadow-2xl sm:rounded-[2.5rem] overflow-hidden relative flex flex-col"></div>
