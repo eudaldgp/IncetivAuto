@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.eudaldgp.twa",
+        "sha256_cert_fingerprints": ["60:04:F8:7D:F9:DA:9A:D6:73:C6:C1:0F:45:EB:B7:91:CF:EF:29:89:66:29:8E:3E:EE:49:45:77:09:F5:C0:54"]
+      }
+    }]
