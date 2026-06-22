@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>IncentivAuto Pro</title>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone@7.23.0/babel.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
@@ -47,8 +47,6 @@
     <div id="root" class="w-full max-w-[450px] h-full sm:max-h-[900px] bg-white shadow-2xl sm:rounded-[2.5rem] overflow-hidden relative flex flex-col"></div>
 
     <script type="text/babel" data-presets="react, env">
-    /** @jsx React.createElement */
-    /** @jsxFrag React.Fragment */
 
         const THEMES = [
             { id: 'default', nombre: 'IncentivAuto', brand: '#011224', accent: '#00C897', icon: 'app_logo' },
